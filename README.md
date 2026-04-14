@@ -1,6 +1,8 @@
 # Small Business Network Lab (EVE-NG)
-
 ---
+## Documentation
+
+Additional design details are available in the `docs/` directory.
 
 ## **Overview**
 
@@ -30,8 +32,15 @@ This project explores how a simple redesign can introduce structure, improve org
 
 ## **Tools Used**
 
-### **EVE-NG**
-Network simulation environment.
+### **EVE-NG Community**
+Network simulation environment. While exploring different lab environments, I also looked at [PNETLab](https://pnetlab.com/) as an alternative open-source platform. 
+
+For this project, I chose to work with [EVE-NG Community](https://www.eve-ng.net/) as it provided a straightforward and stable environment for building and testing network topologies. This allowed me to focus on applying networking concepts such as VLANs, routing, and access control without being distracted by platform setup or behaviour. Other tools such as Cisco Packet Tracer, GNS3, and Cisco Modeling Labs (CML) were considered during the early stages of the project.
+
+A virtualised EVE-NG environment was selected as it provided a good balance between realism and accessibility, allowing the network to be built and tested in a practical way without additional licensing requirements.
+
+### **VMWare Worstation**
+Used to host the EVE-NG lab environment. The EVE-NG Community lab environment is hosted within VMware Workstation, running on an Ubuntu 22.04 virtual machine. This layered setup allows network devices such as routers and switches to be emulated within a controlled environment, making it possible to build, modify, and test network configurations safely. It also mirrors how virtualised lab environments are commonly used to explore and validate network designs before deployment.
 
 ### **Cisco IOSv / Cisco IOSvL2**
 Virtual routing and switching devices.
@@ -99,7 +108,9 @@ Further design details can be found in:
 
 A visual representation of the network:
 
-![Network Topology](topology/topology-layout.png)
+<p align="center">
+  <img src="topology/topology-layout.png" alt="Network Topology" width="300"/>
+</p>
 
 ---
 
