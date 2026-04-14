@@ -100,7 +100,8 @@ The use of private addressing (192.168.x.x) reflects common practice for interna
 
 Further design details can be found in:
 
-📁 `docs/low-level-design.md`
+- [High-Level Design](docs/high-level-design.md)
+- [Low-Level Design](docs/low-level-design.md)
 
 ---
 
@@ -130,7 +131,7 @@ The network is being built in stages to reflect a structured approach:
 
 Device configurations are stored in:
 
-📁 `configs/`
+- [configs/](configs/)
 
 ---
 
@@ -138,7 +139,7 @@ Device configurations are stored in:
 
 Additional notes for each stage of the build:
 
-📁 `build-notes/`
+- [build-notes/](build-notes/)
 
 ---
 
@@ -150,17 +151,13 @@ The network will be tested to confirm:
 * Connectivity within and across VLANs
 * Access restrictions behave as expected
 
-Detailed validation results will be documented in:
-
-📁 `tests/`
+Detailed validation results will be documented in the [tests/](tests/) directory.
 
 ---
 
 ## **Troubleshooting**
 
-Issues encountered during the build and how they were resolved:
-
-📁 `notes/troubleshooting.md`
+Issues encountered during the build and how they were resolved are documented in the [notes/](notes/) directory.
 
 ---
 
