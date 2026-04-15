@@ -17,8 +17,8 @@ Creating VLANs on both switches ensures consistency across the network and allow
 
 Relevant configuration can be found in:
 
-* SW1: [configs/SW1.txt](configs/SW1.txt)
-* SW2: [configs/SW2.txt](configs/SW2.txt)
+* SW1: [SW1 configuration](../configs/SW1.txt)
+* SW2: [SW2 configuration](../configs/SW2.txt)
 
 ## Port Assignment
 
@@ -38,8 +38,8 @@ This ensures that each device is logically grouped according to its department.
 
 Relevant configuration can be found in:
 
-* SW1: [configs/SW1.txt](configs/SW1.txt)
-* SW2: [configs/SW2.txt](configs/SW2.txt)
+* SW1: [SW1 configuration](../configs/SW1.txt)
+* SW2: [SW2 configuration](../configs/SW2.txt)
 
 ## Trunk Configuration
 
@@ -53,8 +53,8 @@ This allows VLANs configured on one switch to be extended across the network.
 
 Relevant configuration can be found in:
 
-* SW1: [configs/SW1.txt](configs/SW1.txt)
-* SW2: [configs/SW2.txt](configs/SW2.txt)
+* SW1: [SW1 configuration](../configs/SW1.txt)
+* SW2: [SW2 configuration](../configs/SW2.txt)
 
 ## Verification
 
@@ -69,7 +69,7 @@ These confirmed that:
 * Access ports were assigned correctly
 * The trunk link was active and carrying the required VLANs
 
-Screenshots of verification outputs are available in the [screenshots/](screenshots/) directory.
+Screenshots of verification outputs are available in the [screenshots directory](../screenshots/).
 
 ## Notes
 
