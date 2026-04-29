@@ -10,7 +10,7 @@ A versioned project simulating the evolution of a real-world network — from sm
 
 ---
 
-## Versions
+## Projects
 
 **[v1 – Small Business Network](./v1-small-business-network/)**
 VLANs, inter-VLAN routing, core services
